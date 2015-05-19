@@ -47,6 +47,7 @@ public class MyActivity extends Activity {
         System.out.println("mode: " + mode);
         btn = (Button) findViewById(R.id.btn);
         textViewTime = (TextView) findViewById(R.id.viewTimeText);
+        
 
         if (mode != null && mode.equals(getString(R.string.stop))) {
             btn.setText(R.string.stop);
